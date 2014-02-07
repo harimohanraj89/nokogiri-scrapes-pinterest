@@ -8,6 +8,7 @@ get '/' do
 end
 
 get '/search' do
+	## I MADE SOME AWESOME CHANGES!
 	if params[:q] == ''
 		redirect '/'
 	else
